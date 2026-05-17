@@ -11,6 +11,7 @@
     "dev:api": "npm run dev --workspace apps/api",
     "dev:web": "npm run dev --workspace apps/web",
     "build": "npm run build --workspace @team-task-manager/shared && npm run build --workspace apps/api && npm run build --workspace apps/web",
+    "start": "node apps/api/dist/server.js",
     "lint": "npm run lint --workspaces",
     "typecheck": "npm run typecheck --workspaces",
     "prisma:generate": "npm run prisma:generate --workspace apps/api",
